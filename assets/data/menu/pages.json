@@ -1,0 +1,184 @@
+{
+    xae:-2048,
+    vxe:-3072,
+    xss:2048,
+    vxs:-3072,
+    xas:0,
+
+    width:2048,
+    height:1152,
+
+    buttons:[
+        {class:art.soft.gui.buttons.menu.banner,
+        url:"http://annimon.com/forum/id403503",
+        x:0,y:0,width:400,height:300,
+        Image:"menu/banners/annimon.png"},
+    
+        {class:art.soft.gui.buttons.menu.banner,
+        url:"https://sourceforge.net/projects/dota-prototype/",
+        x:450,y:0,width:400,height:300,
+        Image:"menu/banners/sourceforge.png"},
+    
+        {class:art.soft.gui.buttons.menu.banner,
+        url:"http://www.cyberforum.ru/beta-testing/thread1523888.html",
+        x:900,y:0,width:400,height:300,
+        Image:"menu/banners/cyberforum.png"},
+
+        {class:art.soft.gui.buttons.menu.banner,
+        url:"http://vk.com/artem_8086",
+        x:0,y:350,width:400,height:320,
+        Image:"menu/banners/vk.png"},
+
+        {class:art.soft.gui.buttons.menu.banner,
+        url:"https://vk.com/dota_prototype",
+        x:450,y:350,width:400,height:320,
+        Image:"menu/banners/vk_group.png"},
+
+        {class:art.soft.gui.buttons.menu.banner,
+        url:"https://www.youtube.com/channel/UCtwnd6KZfjpO7A2a0k9TGPw",
+        x:900,y:350,width:400,height:320,
+        Image:"menu/banners/you_tube.png"}
+    ],
+    next:{
+        show:false,
+        xae:-2048,
+        vxe:-3072,
+        xss:2048,
+        vxs:-3072,
+        xas:0,
+
+        width:2048,
+        height:1152,
+
+        buttons:[
+            {x:0,y:0,width:1750,height:850,
+            Image:"menu/banners/freebanner1.jpg"}
+        ],
+        next:{
+            show:false,
+            xae:-2048,
+            vxe:-3072,
+            xss:2048,
+            vxs:-3072,
+            xas:0,
+
+            width:2048,
+            height:1152,
+
+            buttons:[
+                {x:0,y:0,width:1750,height:850,
+                Image:"menu/banners/freebanner2.jpg"}
+            ],
+            next:{
+                show:false,
+                xae:-2048,
+                vxe:-3072,
+                xss:2048,
+                vxs:-3072,
+                xas:0,
+
+                width:2048,
+                height:1152,
+
+                buttons:[
+                    {x:50,y:0,width:1650,height:850,
+                    Image:"menu/banners/freebanner3.png"}
+                ],
+                next:{
+                    show:false,
+                    xae:-2048,
+                    vxe:-3072,
+                    xss:2048,
+                    vxs:-3072,
+                    xas:0,
+
+                    width:2048,
+                    height:1152,
+
+                    buttons:[
+                        {class:art.soft.gui.buttons.menu.drawRect,
+                        x:0,y:0,width:1750,height:180,
+                        color:16777215,buttons:[
+                            {class:art.soft.gui.buttons.menu.mapsPool,
+                            x:8,y:8,width:1734,height:164,
+                            speed:80,timeShow:1000,wScroll:16,
+                            color:16777215,imW:196,xt:8,
+                            fontSize:12,bold:false,
+                            Image:"@menu@mapnoicon",
+                            text:"maps.json"}
+                        ]},
+                        {class:art.soft.gui.buttons.menu.drawRect,
+                        x:0,y:196,width:1750,height:638,
+                        color:16777215,buttons:[
+                            {class:art.soft.gui.buttons.menu.mapInfo,
+                            x:8,y:204,width:1734,height:622,
+                            name:[0,1],author:[0,2],version:[0,4],
+                            icon:[0,0],describe:[1],color:16777215,
+                            speed:80,timeShow:1000,wScroll:16,
+                            Image:"@menu@mapnoicon",
+                            buttons:[
+                                {class:art.soft.gui.buttons.menu.drawRect,
+                                x:8,y:8,width:1734,height:480,
+                                color:16777215,buttons:[
+                                    {x:12,y:12,width:632,height:472},
+                                    {class:art.soft.gui.buttons.TButton,
+                                    fontSize:22,bold:false,color:16777215,
+                                    x:656,y:14,width:1070,height:32,
+                                    active:false,mode:8},
+                                    {class:art.soft.gui.buttons.TButton,
+                                    fontSize:20,bold:false,color:16777215,
+                                    x:656,y:58,width:1070,height:32,
+                                    active:false,mode:8},
+
+                                    {class:art.soft.gui.buttons.menu.startMap,
+                                    text:"%start_map%",win:[1,0],
+                                    fontSize:24,color:16777215,bold:true,
+                                    x:1300,y:100,width:400,height:64,
+                                    boxCol:3377203,
+                                    back:"@menu@green_med_button_off",
+                                    backPrsd:"@menu@green_med_button_on"},
+
+                                    {class:art.soft.gui.buttons.TButton,
+                                    fontSize:20,bold:false,color:16777215,
+                                    x:656,y:448,width:1070,height:32,
+                                    active:false,mode:8}
+                                ]},
+                                {class:art.soft.gui.buttons.TextBox,
+                                fontSize:18,bold:false,color:16777215,
+                                fromFile:true,x:128,y:8,width:1494,
+                                active:false}
+                            ]}
+                        ]}
+                    ],
+                    next:{
+                        show:false,
+                        xae:-2048,
+                        vxe:-3072,
+                        xss:2048,
+                        vxs:-3072,
+                        xas:0,
+
+                        width:2048,
+                        height:1152,
+
+                        buttons:[
+                            {class:art.soft.gui.buttons.menu.drawRect,
+                            x:0,y:0,width:1750,height:850,
+                            color:16777215,buttons:[
+                                {class:art.soft.gui.buttons.HScroll,
+                                x:8,y:8,width:1734,height:834,
+                                speed:80,timeShow:1000,wScroll:16,
+                                color:16777215,buttons:[
+                                    {class:art.soft.gui.buttons.TextBox,
+                                    x:8,y:0,width:1734,active:false,
+                                    fontSize:18,color:16777215,bold:false,
+                                    text:"%blog%",fromFile:true}
+                                ]}
+                            ]}
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

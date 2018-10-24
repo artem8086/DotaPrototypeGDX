@@ -1,0 +1,20 @@
+{
+	gameVersion:1,
+	version:1,
+
+	sz:128,
+	szp:4096,
+	ssz:7,
+	
+	MAX_ATTACK_SPEED:500,
+	MIN_ATTACK_SPEED:-40,
+
+	miniMap:"test/minimap.png",
+        mapPath:"test/test.tmx",
+        unitsData:[],
+
+    decors:[
+        {anim:"anim/decor/tree/",
+        cType:16,d:2,h:100}
+    ]
+}

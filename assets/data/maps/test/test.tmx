@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="129" height="256" tilewidth="32" tileheight="16" nextobjectid="19">
+ <tileset firstgid="1" name="dotaTiles" tilewidth="64" tileheight="64" tilecount="120">
+  <tileoffset x="-32" y="32"/>
+  <image source="dotaTiles.png" width="640" height="768"/>
+ </tileset>
+ <layer name="tiles" width="129" height="256">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cW4qDMAAFUHc13VL3v4HBD6GIMU9jNOfAIHQsFO4do2kyywIAAAAAAAAAAAAAAAAAAAAAAAAA8Ayfuz8At/rsjsxln78ezEX+c5P/3OQ/t1D+ejCHWP568G6p+evBu4Vy1oO5hPLVA1Z6wCrWg2/gh3eJ5b+nA+P5CxxzHI0DZ1nrwThC+Zf04FcsYx0YS23eeyljvg6Mo3X+q5R8dWAsV1wHWpxDH63G/01qtjowlth9YU4/dOC5evdAB/qrudbnvlcHxtNizG/ZA/PFfd2R/+osZ/n3U5J/y3nD0HcFOtBHTXat5o33ecu/n9bP/DW+P0f59xHLv3cvZH+PUA/uui7owT1Sx/TcuZ/SPPXgWqF1fKn5p/agdj2YDlwjtp4zNi6Uzv2UdkEP2kpd13vlM39uD4wJ7eSu6275zB96PTVfPahXuq6/xbzB2VrhnPsFHShXu6+jxfNhynhgP8E1Rtn3eZT32bk60MZI+39/c5VxHyPuA//ujlxvtH3gxvp7jLQPXPbjqemBud/3aNGD3Dk/xlObf04PdGBcufcDpf8nQgfeYZ+5HsznKG8dmE9ovn85eP3ovTzf2Xc+y8Hv9ufxfLE1AWfn8A6xsd+88POlZJjaAV14ptDzf+61XgeeKyV/c4Pv5W+XjR7Mzf0cpd8J8S7WgbJyLWCjB6zcI7A6WjPAXELrh5iL8YCN/FnpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAGP4Bmqc51QAEAgA=
+  </data>
+ </layer>
+ <objectgroup name="obstacles" visible="0">
+  <object id="1" x="0" y="0" width="4096" height="32"/>
+  <object id="2" x="0" y="32" width="32" height="4032"/>
+  <object id="3" x="4064" y="32" width="32" height="4032"/>
+  <object id="4" x="0" y="4064" width="4096" height="32"/>
+ </objectgroup>
+ <objectgroup name="invisible" visible="0">
+  <object id="6" x="0" y="0" width="4096" height="32"/>
+  <object id="7" x="0" y="32" width="32" height="4032"/>
+  <object id="8" x="4064" y="32" width="32" height="4032"/>
+  <object id="9" x="0" y="4064" width="4096" height="32"/>
+ </objectgroup>
+ <objectgroup name="decorations" visible="0">
+  <object id="12" x="215" y="146">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="15" x="515" y="174">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="16" x="407" y="357">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="17" x="219" y="356">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="18" x="666" y="295">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

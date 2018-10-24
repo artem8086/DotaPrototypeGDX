@@ -1,0 +1,36 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@wraith_band",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Wraith Band",
+    name2:"wraith_band",
+
+    max_level:1,
+
+    itemData:{
+		attrib:16,
+		receptItemsN:["circlet","slippers","recept_wraith_band"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,t_agl:6,t_str:3,t_int:3,dmg:3,level:1}
+        }
+    }
+}

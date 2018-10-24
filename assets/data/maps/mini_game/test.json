@@ -1,0 +1,23 @@
+{
+	gameVersion:1,
+	version:1,
+
+	sz:32,
+	szp:1024,
+	ssz:5,
+	
+	MAX_ATTACK_SPEED:10000000,
+	MIN_ATTACK_SPEED:0,
+
+	miniMap:"mini_game/minimap.png",
+        mapPath:"mini_game/map.tmx",
+        unitsData:[
+            "mini_game/units/drow",
+            "mini_game/units/npc"]
+	
+	textures:[
+		{name:"portrait",path:"icons/portraits.atlas"},
+		{name:"hero_icon",path:"icons/hero_icons.atlas"},
+		{name:"mini_icon",path:"icons/mini_icons.atlas"}
+	],
+}

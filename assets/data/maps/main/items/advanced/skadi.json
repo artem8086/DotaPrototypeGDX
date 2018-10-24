@@ -1,0 +1,41 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@skadi",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Eye of Skadi",
+    name2:"skadi",
+
+    max_level:1,
+
+    itemData:{
+		receptItemsN:["orb_of_venom","point_booster","ultimate_orb","ultimate_orb"],
+        spell:{
+            attrib:17,
+            effect:{class:maps.main.items.Skadi,
+				effect:{
+					class:maps.main.items.SkadiEffect,
+					icon:"@item@skadi",attrib:2
+				},
+				t_str:25,t_agl:25,t_int:25,hp:225,mp:250,
+				modif:2,attrib:11,level:1}
+        }
+    }
+}

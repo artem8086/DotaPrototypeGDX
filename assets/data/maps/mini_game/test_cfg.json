@@ -1,0 +1,15 @@
+{
+    name:"Mini Game (Test)",
+    version:"1.0",
+    author:"Artem_8086 (ArtSoft)",
+	Image:"mini_game/big_icon.png",
+    description:"maps/mini_game/describe.txt",
+
+    teams:[
+        {nameK:"alone",
+        players:1,color:16744448}
+    ],
+
+    mapName:"test",
+    mapPath:"mini_game"
+}

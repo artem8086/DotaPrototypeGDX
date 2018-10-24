@@ -1,0 +1,39 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@radiance",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Radiance",
+    name2:"radiance",
+
+    max_level:1,
+
+    itemData:{
+		receptItemsN:["relic","recept_radiance"],
+        spell:{
+			attrib:577,radius:700,influents:230,
+            effect:{class:maps.main.items.Radiance,
+				icon:"@item@radiance_inactive",
+				level:1,attrib:35},
+			auraEffect:{class:maps.main.items.RadianceEffect,
+				icon:"@item@radiance",attrib:66,level:1}
+        }
+    }
+}

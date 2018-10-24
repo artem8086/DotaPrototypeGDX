@@ -1,0 +1,34 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@helm_of_iron_will",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Helm of Iron Will",
+    name2:"helm_of_iron_will",
+
+    max_level:1,
+
+    itemData:{
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,armor:5,hp_reg:3,level:1}
+        }
+    }
+}

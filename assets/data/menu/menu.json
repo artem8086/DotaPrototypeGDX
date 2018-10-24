@@ -1,0 +1,137 @@
+{
+    width:2048,
+    height:1152,
+
+    textures:[
+        {name:"menu",path:"menu/menu.atlas"}
+    ],
+
+    buttons:[
+        {class:art.soft.gui.buttons.menu.background,
+        color:1426063360,
+        x:0,y:0,width:2048,height:1152,
+        Image:"menu/dashboard_background.png"},
+    
+        {class:art.soft.gui.buttons.menu.topbar,
+        startOp:0.1,speedOp:4,
+        x:0,y:0,width:2048,height:176,
+        buttons:[
+            {class:art.soft.gui.buttons.menu.toGame,
+            color1:301989887,color2:2868903935,
+            x:16,y:12,width:40,height:40,
+            Image:"@menu@download"},
+
+            {class:art.soft.gui.buttons.menu.PlayBut,
+            x:70,y:16,width:36,height:36,win:[2,0],
+            boxCol:-1,
+            back:"@menu@gear",
+            backPrsd:"@menu@settings"},
+
+            {class:art.soft.gui.buttons.menu.topbut,
+            win:0,winPath:[0,0],
+            x:212,y:0,width:194,height:78,
+            Image:"menu/topbar/home_logo_hover.png",
+            topimg:"menu/topbar/topbar_home.png",
+            buttons:[
+                {active:false,
+                x:254,y:0,width:114,height:94,}
+            ]},
+            {class:art.soft.gui.buttons.menu.topbut,
+            text:"%heroes%",win:1,winPath:[0,0],color:7829367,
+            fontSize:20,color2:16777215,bold:true,
+            x:406,y:0,width:182,height:64,
+            topimg:"menu/topbar/topbar_heroes.png"},
+            {class:art.soft.gui.buttons.menu.topbut,
+            text:"%watch%",win:2,winPath:[0,0],color:7829367,
+            fontSize:20,color2:16777215,bold:true,
+            x:590,y:0,width:172,height:64,
+            topimg:"menu/topbar/topbar_store.png"},
+            {class:art.soft.gui.buttons.menu.topbut,
+            text:"%learn%",win:3,winPath:[0,0],color:7829367,
+            fontSize:20,color2:16777215,bold:true,
+            x:764,y:0,width:172,height:64,
+            topimg:"menu/topbar/topbar_watch.png"},
+            {class:art.soft.gui.buttons.menu.topbut,
+            text:"%games%",win:4,winPath:[0,0],color:7829367,
+            fontSize:20,color2:16777215,bold:true,
+            x:938,y:0,width:177,height:64,
+            topimg:"menu/topbar/topbar_learn.png"},
+            {class:art.soft.gui.buttons.menu.topbut,
+            text:"%devolpment%",win:5,winPath:[0,0],color:7829367,
+            fontSize:20,color2:16777215,bold:true,
+            x:1117,y:0,width:172,height:64,
+            topimg:"menu/topbar/topbar_mods.png"},
+
+            {class:art.soft.gui.buttons.console.butBackground,
+            startOp:0.1,speedOp:4,
+            x:1684,y:0,width:364,height:176,active:false,
+            Image:"menu/topbar/armory_backer_off.png",
+            onImg:"menu/topbar/armory_backer_on.png"},
+        ]}
+    ],
+    
+    windows:{
+        xt:149,yt:150,
+
+        width:2048,
+        height:1152,
+        externalWindow:"menu/pages.json",
+        
+        next:{
+            xt:0,yt:64,
+        
+            width:2048,
+            height:1152,
+
+            externalWindow:"menu/playtab.json",
+            
+            next:{
+                width:2048,
+                height:1152,
+            
+                buttons:[
+                    {class:art.soft.gui.buttons.menu.Play,
+                    soft:"@menu@softedge_box",
+                    text:"%play%",
+                    fontSize:24,color:16777215,bold:true,
+                    x:1608,y:1048,width:400,height:64,
+                    back:"@menu@gray_button_on",
+                    backPrsd:"@menu@gray_button_on",
+                    Image:"@menu@background_play_button_2x"},
+
+                    {class:art.soft.gui.buttons.menu.Play,
+                    text:"%to_lobby%",connect:true,
+                    fontSize:24,color:16777215,bold:true,
+                    x:1608,y:1048,width:400,height:64,
+                    boxCol:3377203,
+                    back:"@menu@green_med_button_off",
+                    backPrsd:"@menu@green_med_button_on",
+                    Image:"@menu@background_play_button_2x"},
+
+                    {class:art.soft.gui.buttons.menu.disconnect,
+                    text:"%disconnect%",
+                    fontSize:24,color:16777215,bold:true,
+                    x:1608,y:1048,width:400,height:64,
+                    boxCol:8926003,
+                    back:"@menu@red_large_off",
+                    backPrsd:"@menu@red_large_on"},
+                    
+                    {class:art.soft.gui.buttons.menu.quit,
+                    color1:301924352,color2:2868838400,
+                    x:1972,y:0,width:76,height:64,
+                    Image:"menu/topbar/armory_backer_exit_hover.png"
+                    buttons:[
+                        {x:2002,y:14,width:36,height:36,active:false,
+                        Image:"@menu@quit"},
+                    ]},
+                    {class:art.soft.gui.buttons.console.ConsoleBut,
+                    x:1908,y:0,width:68,height:64,
+                    hover:"menu/topbar/armory_backer_armory_hover.png",
+                    Image:"menu/topbar/armory_icon_off.png",
+                    onImg:"menu/topbar/armory_icon_on.png"}
+                ],
+                externalWindow:"menu/settings.json"
+            }
+        }
+    }
+}

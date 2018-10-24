@@ -1,0 +1,81 @@
+
+[#FF0000]WARNING!!!
+MANY LETTERS and GOOGLE TRANSLATOR![]
+
+
+ There, on the advice of his friend, I'll be blogging about development.
+ Because of unforeseen circumstances have I had to format my hard drive, all previous versions are gone, but it's not the worst thing, the worst thing is that all sources have disappeared utilities that I have not spread to the general access. The structure of the utilities included programs to accelerate the formation of the animation rendering, and so on.
+ 
+ Do not write anything 3 months because I'm learning, but the study does not take me a long time, the culprit is HER ...
+-------------------------------------------------- -----------------------------
+ We all know that the original is better plagiarism counterfeiting, at least in my case ... 
+
+ Yet recently I resumed development and perhaps from now I'll start a blog.
+
+
+- 08/12/2015 -
+ I have received a predictable message about where to refresh ...
+ It happened after 3 or 4 months I stopped writing, well, I thought, not a sign of whether it is over))) do people want me to continue do this ...
+ Then I thought, where to start ...
+ and of course because there is no Interface And then I started Copts resource DotA 2.
+
+- 09/12/2015 -
+ Since VOLVO enthusiastically cheered with the release of Reborn, I wondered how in the engine Source 2 stored resources. Yes, they are stored in fact the same, but now they are packed into some hitherto unknown format ...
+ -- then we might miss --
+
+- 10/12/2015 -
+ Here I still dig for resources pillboxes ...
+
+- 11/12/2015 -
+ Written top panel, made banners for the main page ...
+
+- 12/12/2015 -
+ I suffer with a network engine, write an interface for creating server to connect to it, correct bugs.
+ Night ...
+
+- 12/13/2015 -
+ Fixed a bug loading, now that the game goes the intro does not hang on the loading screen.
+ I decided to write synchronization in the network engine to play on the server and client run simultaneously, rather than one as it will ...
+ send ...
+ does not work ...
+ I do not sleep all night ...
+ Still not working ...
+ I can not cope with its own code, eventually returning everything back and rest the remaining time.
+
+- 12/14/2015 -
+ He returned the old code to the fog of war.
+ I solved the problem with the support of the Russian language in JSON.
+ I write code to change lokalalizatsii. Did Russian and English localization.
+ I did the user interface of the element to display multi-line text.
+ I started writing this blog ...
+
+- 12/15/2015 -
+  Finish code localization.
+  Write code settings download/save.
+  Made settings menu.
+  Well, everything is ...
+
+- 12/16/2015 -
+  Fixed load/save settings.
+  Fixed management.
+  Made in options language selection.
+  Further more ...
+
+[#FFB300]- Yeah.... -[]
+  What I can say in my defense ... A little bit slowed down the process I
+razrobotke, just a little.
+  And all because of what? Because it is simply not see the prospects of the Projects.
+  But a lot of work has already been done, and will stop unreasonable.
+
+[#696969]- The main changes -[]
+  Now the interface supports drag-and-drop elements.
+  Partially made implementation artifacts.
+  The engine rewritten and optimized.
+  Added new visual-effect.
+  Network engine almost completely broken.
+
+- 05/22/2016 -
+ Implemented shop.
+ Made of 47 items, mostly simple objects to the stats.
+
+

@@ -1,0 +1,24 @@
+{
+    width:2048,
+    height:1152,
+
+    textures:[
+        {name:"gui",path:"gui/gui.atlas"},
+        {name:"hud",path:"hud/hud.atlas"}
+    ],
+
+    buttons:[
+        {x:0,y:0,width:2048,height:48,
+        Image:"@hud@topbar",
+        buttons:[
+            {class:art.soft.gui.buttons.inGame.toMenu,
+            x:2,y:2,width:44,height:44,
+            back:"@gui@scoreboard_ib",
+            Image:"@gui@scoreboard_i9"}
+        ]},
+        {x:960,y:-64,width:128,height:128,
+        active:false,
+        Image:"@hud@daynight"},
+    ],
+    nextWindow:"hud/shop.json"
+}

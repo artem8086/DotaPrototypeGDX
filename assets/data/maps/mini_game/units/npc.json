@@ -1,0 +1,63 @@
+{
+    isHero:false,
+    unitStatus:0,
+    collisionType:1,
+    collisionMask:31,
+
+    anim:"heroes/mortra/",
+    zoom:1.5,
+    unit_height:30,
+    
+    portrait:"@portrait@phantom_assassin",
+    icon:"@hero_icon@phantom_assassin",
+    
+    stand_anim:0,
+    spec_stand_anim:0,
+    move_anim:1,
+    die_anim:3,
+
+    radius:14,
+    y_pos:0,
+
+    start_hp:300,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Creep",
+    name2:"Creep",
+
+    viewRadius:450,
+    start_speed:200,
+
+    give_start_skill:20,
+    give_per_lvl_skill:10,
+    radius_skill_give:900,
+
+    max_level:255,
+
+    s_armor:5,
+    p_armor:5,
+    mag_resist:0,
+
+    inc_hp_str:20,
+    inc_mp_int:0,
+
+    start_hp_reg:3,
+    start_mana_reg:0,
+
+    inc_hp_reg:1,
+    inc_mana_reg:0,
+
+    inc_m_dmg:50,
+    
+    start_dmg:50,
+    auto_attack_radius:400,
+
+    attacks:[{
+        startAS:-80,
+        attack_anim:2,
+        halfATime:0.55,
+        radius:60
+    }],
+}

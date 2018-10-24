@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@blink",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Blink Dagger",
+    name2:"blink",
+
+    max_level:1,
+
+    itemData:{
+		commonCooldownN:["blink"],
+		spell:{
+            attrib:321,radius:1200,
+            effect:{class:maps.main.items.BlinkDagger,cooldown:13000,level:1}
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    name:"DotA",
+    version:"1.0",
+    author:"Artem_8086 (ArtSoft)",
+
+    teams:[
+        {nameK:"%radiant%",
+        icon:"maps/main/team_icons/radiant.png",
+        players:31,color:16744448},
+        {nameK:"%dire%",
+        icon:"maps/main/team_icons/dire.png",
+        players:992,color:16744448},
+        {nameK:"%enemy_netral%",
+        visible:false,players:1024}
+    ],
+
+    mapName:"dota",
+    mapPath:"main"
+}

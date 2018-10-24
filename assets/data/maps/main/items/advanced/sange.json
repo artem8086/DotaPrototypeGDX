@@ -1,0 +1,44 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@sange",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Sange",
+    name2:"sange",
+
+    max_level:1,
+
+    itemData:{
+		attrib:16,
+		nextItemsN:["sange_and_yasha"],
+		receptItemsN:["ogre_axe","belt_of_strength","recept_sange"],
+        spell:{
+            attrib:17,
+            effect:{class:art.soft.spells.AttackModif,
+				effect:{
+					class:maps.main.items.SangeEffect,
+					attrib:2,cooldown:4000,
+					icon:"@item@sange"
+				},
+				chance:15,t_str:16,dmg:10,
+				attrib:11,level:1,modif:32}
+        }
+    }
+}

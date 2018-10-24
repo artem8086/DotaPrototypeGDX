@@ -1,0 +1,145 @@
+
+menu.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+unlocked_icon
+  rotate: false
+  xy: 0, 6
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+background_play_button_2x
+  rotate: false
+  xy: 256, 166
+  size: 656, 96
+  orig: 656, 96
+  offset: 0, 0
+  index: -1
+check_off
+  rotate: false
+  xy: 912, 198
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+check_on
+  rotate: false
+  xy: 912, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+softedge_box
+  rotate: false
+  xy: 256, 72
+  size: 300, 62
+  orig: 300, 62
+  offset: 0, 0
+  index: -1
+red_large_on
+  rotate: false
+  xy: 256, 134
+  size: 287, 32
+  orig: 287, 32
+  offset: 0, 0
+  index: -1
+gray_button_off
+  rotate: false
+  xy: 543, 136
+  size: 268, 30
+  orig: 268, 30
+  offset: 0, 0
+  index: -1
+check_over
+  rotate: false
+  xy: 811, 102
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+settings
+  rotate: false
+  xy: 875, 133
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+gear
+  rotate: false
+  xy: 909, 70
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icon_x_red_off
+  rotate: false
+  xy: 875, 108
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+locked_icon
+  rotate: false
+  xy: 556, 8
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+red_large_off
+  rotate: false
+  xy: 684, 37
+  size: 287, 33
+  orig: 287, 33
+  offset: 0, 0
+  index: -1
+gear_return
+  rotate: false
+  xy: 684, 72
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+download
+  rotate: false
+  xy: 748, 100
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+gray_button_on
+  rotate: false
+  xy: 684, 7
+  size: 268, 30
+  orig: 268, 30
+  offset: 0, 0
+  index: -1
+mapnoicon
+  rotate: false
+  xy: 256, 0
+  size: 128, 72
+  orig: 128, 72
+  offset: 0, 0
+  index: -1
+quit
+  rotate: false
+  xy: 384, 8
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+green_med_button_off
+  rotate: false
+  xy: 448, 37
+  size: 86, 35
+  orig: 86, 35
+  offset: 0, 0
+  index: -1
+green_med_button_on
+  rotate: false
+  xy: 448, 2
+  size: 86, 35
+  orig: 86, 35
+  offset: 0, 0
+  index: -1

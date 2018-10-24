@@ -1,0 +1,30 @@
+{
+	gameVersion:1,
+	version:1,
+
+	sz:128,
+	szp:4096,
+	ssz:7,
+	
+	MAX_ATTACK_SPEED:10000,
+	MIN_ATTACK_SPEED:-40,
+
+	miniMap:"main/minimap_pre6.82.png",
+        mapPath:"mini_dota/dota.tmx",
+        unitsData:[
+            "main/units/heroes/drow",
+            "main/units/creeps/dire_melee",
+            "main/units/heroes/mortra"
+	],
+
+    decors:[
+        {anim:"anim/decor/tree/",
+        cType:16,d:2,h:100}
+    ],
+	textures:[
+		{name:"portrait",path:"icons/portraits.atlas"},
+		{name:"hero_icon",path:"icons/hero_icons.atlas"},
+		{name:"mini_icon",path:"icons/mini_icons.atlas"}
+	],
+	trigger:{class:maps.main.trigger}
+}

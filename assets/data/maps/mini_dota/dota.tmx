@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="129" height="256" tilewidth="32" tileheight="16" nextobjectid="371">
+ <tileset firstgid="1" name="dotaTiles" tilewidth="64" tileheight="64" tilecount="120">
+  <tileoffset x="-32" y="32"/>
+  <image source="dotaTiles.png" width="640" height="768"/>
+ </tileset>
+ <layer name="tiles" width="129" height="256">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Ouw2AMBBEwZMb4Wfov0SEuJiMs4NZabTpaxHRAAAAAADgw5l/TdBCvT3/yO8TNFFvzd/i3ege6j1b8ke3AOPEBA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMB/bozi2O8ABAIA
+  </data>
+ </layer>
+ <objectgroup name="obstacles">
+  <object id="1" x="0" y="0" width="4096" height="32"/>
+  <object id="2" x="0" y="32" width="32" height="4032"/>
+  <object id="3" x="4064" y="32" width="32" height="4032"/>
+  <object id="4" x="0" y="4064" width="4096" height="32"/>
+  <object id="19" x="192" y="160" width="192" height="128"/>
+ </objectgroup>
+ <objectgroup name="invisible" visible="0">
+  <object id="6" x="0" y="0" width="4096" height="32"/>
+  <object id="7" x="0" y="32" width="32" height="4032"/>
+  <object id="8" x="4064" y="32" width="32" height="4032"/>
+  <object id="9" x="0" y="4064" width="4096" height="32"/>
+ </objectgroup>
+ <objectgroup name="decorations" visible="0">
+  <object id="12" x="215" y="146">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="15" x="515" y="174">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="16" x="407" y="357">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="17" x="219" y="356">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+  <object id="18" x="666" y="295">
+   <properties>
+    <property name="decor" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="units">
+  <object id="76" x="1721" y="3586">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="83" x="1721" y="3613">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="84" x="1723" y="3642">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="86" x="1750" y="3662">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="87" x="1779" y="3664">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="88" x="1803" y="3665">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="89" x="1822" y="3644">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="91" x="1821" y="3616">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="92" x="1821" y="3587">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="93" x="1700" y="3563">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="94" x="1728" y="3564">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="95" x="1746" y="3563">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="98" x="1776" y="3562">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="100" x="1798" y="3563">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="101" x="1823" y="3563">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="102" x="1851" y="3564">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="103" x="1878" y="3564">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="104" x="1901" y="3561">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="105" x="1927" y="3563">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="106" x="1955" y="3564">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="107" x="1979" y="3561">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="108" x="2005" y="3561">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="110" x="2032" y="3557">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="111" x="2057" y="3562">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="112" x="2085" y="3563">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="113" x="1980" y="3581">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="119" x="1981" y="3607">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="121" x="1983" y="3632">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="122" x="2010" y="3654">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="127" x="2036" y="3656">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="128" x="2065" y="3656">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="129" x="2084" y="3634">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="130" x="2085" y="3609">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="131" x="2085.33" y="3588">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="132" x="2112" y="3562.67">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="133" x="2142" y="3562">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="136" x="2165.13" y="3539.32">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="137" x="2166.29" y="3514.44">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="138" x="1675.06" y="3542.79">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="140" x="1675" y="3515">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="142" x="1676" y="3491">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="143" x="2165" y="3487">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="147" x="2166" y="3456">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="149" x="2166" y="3428">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="151" x="2167" y="3401">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="153" x="2170" y="3375">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="154" x="2171" y="3347">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="155" x="2168" y="3318">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="156" x="2169" y="3287">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="158" x="2138" y="3537">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="159" x="1701" y="3538">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="161" x="2170" y="3262">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="162" x="2172" y="3238">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="163" x="2169" y="3211">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="164" x="2171" y="3185">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="166" x="2170" y="3154">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="167" x="2170" y="3126">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="168" x="2148" y="3101">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="169" x="2145" y="3125">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="171" x="2195" y="3314">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="172" x="2220" y="3340">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="173" x="2225" y="3367">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="174" x="2221" y="3392">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="175" x="2224" y="3418">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="176" x="2222" y="3441">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="178" x="2220" y="3466">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="179" x="2192" y="3489">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="180" x="1703" y="3491">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="181" x="1649" y="3488">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="182" x="1626" y="3465">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="183" x="1625" y="3431">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="186" x="1626" y="3401">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="188" x="1629" y="3373">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="191" x="1624" y="3345">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="193" x="1627" y="3320">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="196" x="1651" y="3295">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="198" x="1675" y="3294">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="199" x="1706" y="3296">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="200" x="1730" y="3316">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="203" x="1728" y="3344">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="205" x="1727" y="3371">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="207" x="1727" y="3397">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="209" x="1731" y="3427">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="210" x="1728" y="3458">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="211" x="2123.33" y="3100.67">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="212" x="2075.33" y="3099.33">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="213" x="2051.67" y="3099.33">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="214" x="2029.67" y="3099">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="215" x="1674" y="3271">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="216" x="1673" y="3243">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="217" x="1676" y="3210">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="218" x="1678" y="3183">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="219" x="1680" y="3156">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="220" x="1681" y="3123">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="222" x="1709" y="3094">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="223" x="1709" y="3124">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="224" x="1736" y="3095">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="225" x="1755.5" y="3095">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="226" x="1778" y="3095">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="242" x="1820.5" y="3094.5">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="243" x="1844" y="3095">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="244" x="1872" y="3097">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="245" x="1900" y="3099">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="246" x="1927" y="3099">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="247" x="1955" y="3100">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="248" x="1982" y="3100">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="249" x="2007" y="3100">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="250" x="1733.94" y="3073.94">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="251" x="1736.09" y="3043.81">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="252" x="1738.24" y="3013.67">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="255" x="1736.09" y="2984.61">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="256" x="1739.32" y="2953.4">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="257" x="1739.32" y="2925.41">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="259" x="1741.47" y="2895.27">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="262" x="1741.47" y="2871.6">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="263" x="1742.55" y="2840.38">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="264" x="1767.3" y="2816.7">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="265" x="1794.21" y="2817.78">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="266" x="1820.04" y="2839.31">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="268" x="1821.12" y="2866.21">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="269" x="1820.04" y="2893.12">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="270" x="1818.96" y="2921.11">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="271" x="1823.27" y="2948.01">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="272" x="1818.96" y="2977.07">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="273" x="1818.04" y="3009.06">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="275" x="1818.96" y="3038.42">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="277" x="1826.5" y="3065.33">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="278" x="1983" y="3074">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="279" x="1981" y="3042">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="280" x="1982" y="3011">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="281" x="1983" y="2980">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="286" x="1985" y="2951">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="287" x="1985" y="2919">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="290" x="1985" y="2890">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="292" x="1988" y="2866">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="294" x="1990" y="2836">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="296" x="1990" y="2808">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="298" x="1992" y="2781">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="299" x="1991" y="2752">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="300" x="2022" y="2731">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="301" x="2048" y="2729">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="302" x="2076" y="2733">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="303" x="2101" y="2761">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="305" x="2102" y="2789">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="307" x="2103" y="2817">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="309" x="2102" y="2845">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="311" x="2104" y="2878">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="312" x="2105" y="2907">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="313" x="2107" y="2935">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="314" x="2107" y="2965">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="315" x="2113" y="2992">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="319" x="2118" y="3022">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="320" x="2123" y="3050">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="321" x="2129" y="3077">
+   <properties>
+    <property name="unit" value="arcane_boots"/>
+   </properties>
+  </object>
+  <object id="322" x="1945" y="3324">
+   <properties>
+    <property name="unit" value="branch"/>
+   </properties>
+  </object>
+  <object id="323" x="1874" y="3233.5">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="326" x="1902" y="3233">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="327" x="1929" y="3233.5">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="328" x="1951.5" y="3232">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="329" x="1979" y="3234.5">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="330" x="2003" y="3235">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="333" x="2030" y="3235">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="335" x="2058.67" y="3234">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="338" x="2086.67" y="3235.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="340" x="1848" y="3231.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="341" x="1821.33" y="3231.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="342" x="2074" y="3258.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="343" x="2062.67" y="3280.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="345" x="2037.33" y="3282">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="346" x="2014.67" y="3279.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="347" x="1988.67" y="3260.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="348" x="2026.67" y="3258.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="350" x="2049.33" y="3259.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="351" x="1824" y="3252">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="352" x="1843.33" y="3273.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="353" x="1861.33" y="3290.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="355" x="1888" y="3292">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="356" x="1906" y="3274.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="357" x="1917.33" y="3254.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="358" x="1889.33" y="3256">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="359" x="1881.33" y="3272.67">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="360" x="1863.33" y="3253.33">
+   <properties>
+    <property name="unit" value="tpscroll"/>
+   </properties>
+  </object>
+  <object id="361" x="1944" y="3383.33">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="362" x="1969.33" y="3387.33">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="363" x="1994" y="3389.33">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="364" x="2015.33" y="3394.67">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="367" x="1918.67" y="3386">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="368" x="1898" y="3388">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="369" x="1876.67" y="3391.33">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+  <object id="370" x="1856" y="3400">
+   <properties>
+    <property name="unit" value="boots"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

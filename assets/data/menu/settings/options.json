@@ -1,0 +1,27 @@
+{
+    show:false,
+    width:2048,
+    height:1152,
+
+    xt:206,yt:158,
+    xss:206,yss:158,
+
+    buttons:[
+        {class:art.soft.gui.buttons.TButton,
+        text:"%language%",active:false,mode:8,
+        fontSize:22,color:12303291,bold:false,
+        x:1098,y:8,width:500,height:48,active:false},
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        x:1098,y:60,width:500,height:4,color:4144959},
+    
+        {class:art.soft.gui.buttons.menu.drawRect,
+        x:1098,y:80,width:316,height:616,
+        color:16777215,buttons:[
+            {class:art.soft.gui.buttons.settings.LangPool,
+            x:1106,y:88,width:300,height:600,butH:36,
+            speed:40,timeShow:1000,wScroll:8,
+            fontSize:18,color:16777215,bold:false}
+        ]}
+    ],
+    nextWindow:"menu/settings/video.json"
+}

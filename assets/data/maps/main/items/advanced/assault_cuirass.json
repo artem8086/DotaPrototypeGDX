@@ -1,0 +1,39 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@assault",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Assault Cuirass",
+    name2:"assault_cuirass",
+
+    max_level:1,
+
+    itemData:{
+		receptItemsN:["hyperstone","platemail","chainmail","recept_assault_cuirass"],
+        spell:{
+			icon:"@item@assault",
+            attrib:1,radius:900,influents:246,
+            effect:{class:art.soft.spells.ItemStatsAdd,
+				icon:"@item@assault",
+				level:1,armor:15,aSpeed:55},
+			auraEffect:{class:maps.main.items.AssaultCuirass,level:1}
+        }
+    }
+}

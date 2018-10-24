@@ -1,0 +1,44 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@sange_and_yasha",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Sange and Yasha",
+    name2:"sange_and_yasha",
+
+    max_level:1,
+
+    itemData:{
+		attrib:16,
+		receptItemsN:["sange","yasha"],
+        spell:{
+            attrib:17,
+            effect:{class:art.soft.spells.AttackModif,
+				effect:{
+					class:maps.main.items.SangeYashaEff,
+					icon:"@item@sange_and_yasha",
+					attrib:2,cooldown:4000
+				},
+				t_str:16,dmg:16,attrib:11,level:1,
+				ms_per:16,t_agl:16,aSpeed:16
+				chance:16,statModif:2,modif:32}
+        }
+    }
+}

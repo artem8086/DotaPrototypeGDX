@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@ultimate_orb",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Ultimate Orb",
+    name2:"ultimate_orb",
+
+    max_level:1,
+
+    itemData:{
+		nextItemsN:["skadi"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,t_str:10,t_agl:10,t_int:10,level:1}
+        }
+    }
+}

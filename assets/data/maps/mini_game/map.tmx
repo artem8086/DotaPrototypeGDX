@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="33" height="64" tilewidth="32" tileheight="16" nextobjectid="31">
+ <tileset firstgid="1" name="dotaTiles" tilewidth="64" tileheight="64" tilecount="120">
+  <tileoffset x="-32" y="32"/>
+  <image source="dotaTiles.png" width="640" height="768"/>
+ </tileset>
+ <layer name="tiles" width="33" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3FsQ0AAAwCoMb/j+7gFSawkKvYtm3btm3btm3btm2P/gEv0t8AIQAA
+  </data>
+ </layer>
+ <layer name="tiles2" width="33" height="64">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WKw6AQAxF0S4KgyYk/GH/qwHRCpCIvgbuMSPvyzACMwAA8MYh7s9+LtIVZqOfqh1dkR1BvaPqfeyifvPYUeU+/v4+quwIVXZEfxX1Nz8n+vQvvbifjf69r/7+rbifLf7rVf0wiPsh+/0BAAAA+JYTjffuKQAhAAA=
+  </data>
+ </layer>
+ <objectgroup name="obstacles" visible="0">
+  <object id="1" x="0" y="0" width="1024" height="32"/>
+  <object id="2" x="0" y="32" width="32" height="960"/>
+  <object id="20" x="992" y="32" width="32" height="960"/>
+  <object id="21" x="0" y="992" width="1024" height="32"/>
+  <object id="22" x="32" y="224" width="58" height="448"/>
+  <object id="24" x="96" y="224" width="64" height="416"/>
+  <object id="25" x="160" y="256" width="64" height="360"/>
+  <object id="26" x="224" y="288" width="64" height="300"/>
+  <object id="28" x="289.333" y="318.667" width="93.3333" height="241.333"/>
+  <object id="29" x="382.667" y="366.667" width="100" height="142.667"/>
+ </objectgroup>
+ <objectgroup name="units" visible="0">
+  <object id="30" x="676" y="429.333">
+   <properties>
+    <property name="unit" value="Drow Ranger"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

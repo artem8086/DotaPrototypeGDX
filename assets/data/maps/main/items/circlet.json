@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@circlet",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Сirclet",
+    name2:"circlet",
+
+    max_level:1,
+
+    itemData:{
+		nextItemsN:["null_talisman","wraith_band","bracer"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,t_str:2,t_agl:2,t_int:2,level:1}
+        }
+    }
+}

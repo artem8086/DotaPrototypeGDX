@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@band_of_elvenskin",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Band of Elvenskin",
+    name2:"band_of_elvenskin",
+
+    max_level:1,
+
+    itemData:{
+		nextItemsN:["yasha"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,t_agl:6,level:1}
+        }
+    }
+}

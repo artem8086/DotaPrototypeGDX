@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@sobi_mask",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Sobi Mask",
+    name2:"sobi_mask",
+
+    max_level:1,
+
+    itemData:{
+        nextItemsN:["oblivion_staff"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,mp_per:0.5,level:1}
+        }
+    }
+}

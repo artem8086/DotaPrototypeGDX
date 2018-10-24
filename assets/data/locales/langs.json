@@ -1,0 +1,19 @@
+{"locales":[
+    {"locale":"eng","path":"locales/english.json","names":["English","Английский","Англійська"]},
+    {"locale":"rus","path":"locales/russian.json","names":["Russian","Русский","Російська"]},
+	{"locale":"ukr","path":"locales/ukrainian.json","names":["Ukrainian","Украинский","Українська"]}
+],
+"keyWords":{
+    "missK":"%miss%",
+    "passive_netralK":"%passive_netral%",
+    "enemy_netralK":"%enemy_netral%",
+    "dieK":"%die%",
+    "appearK":"%appear%",
+    "allPlayersK":"%all_players%",
+    "openSlotK":"%open_slot%",
+    "lockedK":"%locked%",
+    "fontK":"fonts/fonts.json",
+    "versionK":"%version%",
+    "authorK":"%author%",
+    "nameK":"%name%"
+}}

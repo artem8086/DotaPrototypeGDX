@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/shield/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@stout_shield",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Stout Shield",
+    name2:"stout_shield",
+
+    max_level:1,
+
+    itemData:{
+		nextItemsN:["poor_man_shield","vanguard"]
+		spell:{
+            attrib:1,
+            effect:{class:maps.main.items.StoutShield,level:1,modif:16}
+        }
+    }
+}

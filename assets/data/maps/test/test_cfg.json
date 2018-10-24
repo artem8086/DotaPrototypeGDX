@@ -1,0 +1,14 @@
+{
+    name:"Test",
+    version:"1.0",
+    author:"Artem_8086 (ArtSoft)",
+    description:"blog/russian.txt",
+
+    teams:[
+        {nameK:"%test%",
+        players:1023,color:16744448}
+    ],
+
+    mapName:"test",
+    mapPath:"test"
+}

@@ -1,0 +1,17 @@
+{
+    maps:[
+        {mapName:"Test GAME",mapConfig:"mini_game/test_cfg.json",imageSmal:"mini_game/icon.png"},
+        {mapName:"Mini DotA",mapConfig:"mini_dota/mini_dota.json"},
+        {mapName:"Test map (3)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (4)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (5)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (6)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (7)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (8)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (9)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (10)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (11)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (12)",mapConfig:"test/test_cfg.json"},
+        {mapName:"Test map (13)",mapConfig:"test/test_cfg.json"}
+    ]
+}

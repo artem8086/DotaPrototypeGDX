@@ -1,0 +1,24 @@
+{
+    decors:[
+        {anim:"anim/decor/tree/",
+        cType:16,d:2,h:100}
+    ],
+    effects:[
+        {anim:"effects/action/",
+        size:0.8,color:65280},
+        {anim:"effects/action/",
+        size:0.8,color:16711680},
+        {anim:"effects/action/",
+        color:65280,num:1},
+        {anim:"effects/action/",
+        color:16711680,num:1},
+        {anim:"effects/ping/",num:0,miniMapSize:0.2},
+        {anim:"effects/ping/",num:1,miniMapSize:0.2},
+    ],
+    animations:[
+        {anim:"effects/shadows/",size:0.005},
+        {anim:"effects/circles/",size:0.022},
+        {anim:"effects/mini_map/",size:0.3}
+    ],
+    GUIPath:"hud/default.json"
+}

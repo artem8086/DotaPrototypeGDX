@@ -1,0 +1,19 @@
+{
+    name:"Mini DotA",
+    version:"1.0",
+    author:"Artem_8086 (ArtSoft) with Mojo",
+
+    teams:[
+        {nameK:"%radiant%",
+        icon:"maps/main/team_icons/radiant.png",
+        players:3,color:16744448},
+        {nameK:"%dire%",
+        icon:"maps/main/team_icons/dire.png",
+        players:12,color:16744448},
+        {nameK:"%enemy_netral%",
+        visible:false,players:1024}
+    ],
+
+    mapName:"dota",
+    mapPath:"mini_dota"
+}

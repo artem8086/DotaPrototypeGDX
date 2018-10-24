@@ -1,0 +1,19 @@
+
+portraits.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+drow_ranger
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+phantom_assassin
+  rotate: false
+  xy: 128, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

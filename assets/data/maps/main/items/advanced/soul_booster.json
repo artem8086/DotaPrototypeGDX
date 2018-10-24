@@ -1,0 +1,36 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@soul_booster",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Soul Booster",
+    name2:"soul_booster",
+
+    max_level:1,
+
+    itemData:{
+		attrib:16,
+		receptItemsN:["energy_booster","vitality_booster","point_booster"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,hp_reg:4,mp_per:100,hp:450,mp:400,level:1}
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    show:false,
+    width:2048,
+    height:1152,
+
+    xt:200,yt:100,
+    
+    xae:200,yae:100,
+    vxe:1200,vye:600,
+    xss:200,yss:100,
+    vxs:-800,vys:-400,
+    xas:0,yas:0,
+
+    buttons:[
+        {class:art.soft.gui.buttons.menu.fillBut,
+        cancel:true,color:1426063360,
+        x:-200,y:-100,width:2248,height:1252},
+        
+        {class:art.soft.gui.buttons.menu.fillBut,
+        color:2171171,x:197,y:97,width:1654,height:958,
+        buttons:[
+            {class:art.soft.gui.buttons.menu.drawRect,
+            x:200,y:100,width:1648,height:952,
+            active:false,color:5592405},
+            {class:art.soft.gui.buttons.menu.fillBut,
+            color:1579034,x:206,y:106,width:1636,height:48,
+            buttons:[
+                {class:art.soft.gui.buttons.menu.BOpenI,
+                x:212,y:112,width:36,height:36,boxCol:-1,
+                Image:"@menu@gear_return"},
+            
+                {class:art.soft.gui.buttons.menu.topbut,
+                text:"%hotkeys%",win:0,winPath:[2,0,0],color:7829367,
+                fontSize:18,color2:16777215,bold:false,
+                x:256,y:112,width:202,height:36},
+
+                {class:art.soft.gui.buttons.TButton,
+                text:"/",fontSize:18,color:7829367,bold:false,
+                x:458,y:112,width:12,height:36,active:false},
+
+                {class:art.soft.gui.buttons.menu.topbut,
+                text:"%options%",win:1,winPath:[2,0,0],color:7829367,
+                fontSize:18,color2:16777215,bold:false,
+                x:466,y:112,width:202,height:36},
+
+                {class:art.soft.gui.buttons.TButton,
+                text:"/",fontSize:18,color:7829367,bold:false,
+                x:668,y:112,width:12,height:36,active:false},
+
+                {class:art.soft.gui.buttons.menu.topbut,
+                text:"%video%",win:2,winPath:[2,0,0],color:7829367,
+                fontSize:18,color2:16777215,bold:false,
+                x:676,y:112,width:202,height:36}
+            ]},
+            {class:art.soft.gui.buttons.settings.Reset,
+            text:"%reset%",
+            fontSize:20,color:16777215,bold:false,
+            x:262,y:966,width:332,height:48}
+        ]}
+    ],
+    externalWindow:"menu/settings/hotkeys.json"
+}

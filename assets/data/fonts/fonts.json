@@ -1,0 +1,21 @@
+{
+    "fonts":[
+        {"fontSize":18,"bold":false,"path":"russian18"},
+        {"fontSize":22,"bold":false,"path":"russian22"},
+        {"fontSize":20,"bold":false,"path":"russian20"},
+        {"fontSize":12,"bold":false,"path":"russian12"},
+        {"fontSize":11,"bold":false,"path":"russian11"},
+        {"fontSize":10,"bold":false,"path":"russian10"},
+        {"fontSize":9,"bold":false,"path":"russian9"},
+
+        {"fontSize":24,"bold":true,"path":"russian24b"},
+        {"fontSize":22,"bold":true,"path":"russian22b"},
+        {"fontSize":20,"bold":true,"path":"russian20b"},
+        {"fontSize":18,"bold":true,"path":"russian18b"},
+        {"fontSize":16,"bold":true,"path":"russian16b"},
+        {"fontSize":14,"bold":true,"path":"russian14b"},
+        {"fontSize":13,"bold":true,"path":"russian13b"},
+        {"fontSize":12,"bold":true,"path":"russian12b"},
+        {"fontSize":10,"bold":true,"path":"russian10b"}
+    ]
+}

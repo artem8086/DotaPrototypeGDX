@@ -1,0 +1,37 @@
+{
+    isHero:false,
+    unitStatus:503636,
+
+    anim:"items/item/",
+    zoom:1,
+    unit_height:26,
+
+    time_die:0,
+    attackHP:1,
+    canBeTaken:-1,
+    icon:"@item@pers",
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Perseverance",
+    name2:"perseverance",
+
+    max_level:1,
+
+    itemData:{
+		attrib:16,
+		receptItemsN:["ring_of_health","void_stone"],
+		nextItemsN:["battle_fury"],
+        spell:{
+            attrib:1,
+            effect:{class:art.soft.spells.ItemStatsAdd,dmg:10,hp_reg:5,mp_per:1.25,level:1}
+        }
+    }
+}

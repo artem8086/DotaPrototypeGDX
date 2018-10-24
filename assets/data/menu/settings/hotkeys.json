@@ -1,0 +1,132 @@
+{
+    show:true,
+    width:2048,
+    height:1152,
+
+    xt:206,yt:158,
+    xss:206,yss:158,
+
+    buttons:[
+        {class:art.soft.gui.buttons.TButton,
+        text:"%skills%",mode:8,
+        fontSize:22,color:12303291,bold:false,
+        x:58,y:8,width:500,height:48,active:false},
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        x:58,y:60,width:500,height:4,color:4144959},
+
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:8,fontSize:20,color:16777215,bold:false,
+        x:58,y:78,width:70,height:70},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:9,fontSize:20,color:16777215,bold:false,
+        x:144,y:78,width:70,height:70},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:10,fontSize:20,color:16777215,bold:false,
+        x:230,y:78,width:70,height:70},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:11,fontSize:20,color:16777215,bold:false,
+        x:316,y:78,width:70,height:70},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:12,fontSize:20,color:16777215,bold:false,
+        x:402,y:78,width:70,height:70},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:13,fontSize:20,color:16777215,bold:false,
+        x:488,y:78,width:70,height:70},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:58,y:170,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%up_skill%",fontSize:18,color:12303291,
+            bold:false,x:62,y:170,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:7,fontSize:20,color:16777215,bold:false,
+        x:402,y:170,width:156,height:36},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:58,y:220,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%attribute%",fontSize:18,color:12303291,
+            bold:false,x:62,y:220,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:14,fontSize:20,color:16777215,bold:false,
+        x:402,y:220,width:156,height:36},
+
+        {class:art.soft.gui.buttons.TButton,
+        text:"%actions%",active:false,mode:8,
+        fontSize:22,color:12303291,bold:false,
+        x:58,y:268,width:500,height:48,active:false},
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        x:58,y:320,width:500,height:4,color:4144959},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:58,y:336,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%attack%",fontSize:18,color:12303291,
+            bold:false,x:62,y:336,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:6,fontSize:20,color:16777215,bold:false,
+        x:402,y:336,width:156,height:36},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:58,y:386,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%select_unit%",fontSize:18,color:12303291,
+            bold:false,x:62,y:386,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:5,fontSize:20,color:16777215,bold:false,
+        x:402,y:386,width:156,height:36},
+
+
+        {class:art.soft.gui.buttons.TButton,
+        text:"%camera%",active:false,mode:8,
+        fontSize:22,color:12303291,bold:false,
+        x:598,y:408,width:500,height:48,active:false},
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        x:598,y:460,width:500,height:4,color:4144959},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:598,y:476,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%up%",fontSize:18,color:12303291,
+            bold:false,x:602,y:476,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:1,fontSize:20,color:16777215,bold:false,
+        x:942,y:476,width:156,height:36},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:598,y:526,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%left%",fontSize:18,color:12303291,
+            bold:false,x:602,y:526,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:3,fontSize:20,color:16777215,bold:false,
+        x:942,y:526,width:156,height:36},
+    
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:598,y:576,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%right%",fontSize:18,color:12303291,
+            bold:false,x:602,y:576,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:4,fontSize:20,color:16777215,bold:false,
+        x:942,y:576,width:156,height:36},
+
+        {class:art.soft.gui.buttons.menu.fillBut,active:false,
+        color:1315860,x:598,y:626,width:330,height:36,
+        buttons:[
+            {class:art.soft.gui.buttons.TButton,mode:8,
+            text:"%down%",fontSize:18,color:12303291,
+            bold:false,x:602,y:626,width:330,height:36},]},
+        {class:art.soft.gui.buttons.settings.KeySet,
+        keyNum:2,fontSize:20,color:16777215,bold:false,
+        x:942,y:626,width:156,height:36}
+    ],
+    nextWindow:"menu/settings/options.json"
+}

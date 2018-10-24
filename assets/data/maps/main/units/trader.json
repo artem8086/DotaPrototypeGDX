@@ -1,0 +1,35 @@
+{
+    isHero:false,
+    unitStatus:507888,
+
+    anim:"items/boots/",
+    zoom:1,
+    unit_height:1,
+
+    time_die:0,
+    attackHP:0,
+    icon:"@item@boots",
+    
+    stand_anim:0,
+
+    softRadius:48,
+    radius:14,
+    y_pos:0,
+
+    start_hp:1,
+    start_mp:0,
+
+    body_height:16,
+
+    name1:"Trader",
+    name2:"trader",
+
+    max_level:1,
+
+    attribSpell:{
+        attrib:1024,
+        number:0,
+        radius:600,
+        influents:214
+    }
+}

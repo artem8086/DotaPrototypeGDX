@@ -1,0 +1,565 @@
+
+items.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arcane_boots
+  rotate: false
+  xy: 0, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+assault
+  rotate: false
+  xy: 0, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+band_of_elvenskin
+  rotate: false
+  xy: 88, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+belt_of_strength
+  rotate: false
+  xy: 0, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+bfury
+  rotate: false
+  xy: 88, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+blades_of_attack
+  rotate: false
+  xy: 176, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+blade_of_alacrity
+  rotate: false
+  xy: 0, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+blink
+  rotate: false
+  xy: 88, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+boots
+  rotate: false
+  xy: 176, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+bracer
+  rotate: false
+  xy: 264, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+branches
+  rotate: false
+  xy: 0, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+broadsword
+  rotate: false
+  xy: 88, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+butterfly
+  rotate: false
+  xy: 176, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+chainmail
+  rotate: false
+  xy: 264, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+circlet
+  rotate: false
+  xy: 352, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+clarity
+  rotate: false
+  xy: 0, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+claymore
+  rotate: false
+  xy: 88, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+cloak
+  rotate: false
+  xy: 176, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+demon_edge
+  rotate: false
+  xy: 264, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+desolator
+  rotate: false
+  xy: 352, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+dust
+  rotate: false
+  xy: 440, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+eagle
+  rotate: false
+  xy: 0, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+energy_booster
+  rotate: false
+  xy: 0, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+flask
+  rotate: false
+  xy: 88, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+gauntlets
+  rotate: false
+  xy: 176, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+gem
+  rotate: false
+  xy: 264, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+gloves
+  rotate: false
+  xy: 352, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+greater_crit
+  rotate: false
+  xy: 440, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 528, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+helm_of_iron_will
+  rotate: false
+  xy: 88, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+hyperstone
+  rotate: false
+  xy: 88, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+invis_sword
+  rotate: false
+  xy: 176, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+javelin
+  rotate: false
+  xy: 264, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+lesser_crit
+  rotate: false
+  xy: 352, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+lifesteal
+  rotate: false
+  xy: 440, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+magic_stick
+  rotate: false
+  xy: 528, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+magic_wand
+  rotate: false
+  xy: 616, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+mantle
+  rotate: false
+  xy: 176, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+mask_of_madness
+  rotate: false
+  xy: 176, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+mithril_hammer
+  rotate: false
+  xy: 264, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+mystic_staff
+  rotate: false
+  xy: 352, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+null_talisman
+  rotate: false
+  xy: 440, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+oblivion_staff
+  rotate: false
+  xy: 528, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+ogre_axe
+  rotate: false
+  xy: 616, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+orb_of_venom
+  rotate: false
+  xy: 704, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+pers
+  rotate: false
+  xy: 264, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+platemail
+  rotate: false
+  xy: 264, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+point_booster
+  rotate: false
+  xy: 352, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+poor_mans_shield
+  rotate: false
+  xy: 440, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+quarterstaff
+  rotate: false
+  xy: 528, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+radiance
+  rotate: false
+  xy: 616, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+radiance_inactive
+  rotate: false
+  xy: 704, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+reaver
+  rotate: false
+  xy: 792, 448
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+recept
+  rotate: false
+  xy: 352, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+relic
+  rotate: false
+  xy: 352, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+ring_of_health
+  rotate: false
+  xy: 440, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+ring_of_protection
+  rotate: false
+  xy: 528, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+ring_of_regen
+  rotate: false
+  xy: 616, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+robe
+  rotate: false
+  xy: 704, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+sange
+  rotate: false
+  xy: 792, 384
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+sange_and_yasha
+  rotate: false
+  xy: 440, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+skadi
+  rotate: false
+  xy: 440, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+slippers
+  rotate: false
+  xy: 528, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+sobi_mask
+  rotate: false
+  xy: 616, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+soul_booster
+  rotate: false
+  xy: 704, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+staff_of_wizardry
+  rotate: false
+  xy: 792, 320
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+stout_shield
+  rotate: false
+  xy: 528, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+talisman_of_evasion
+  rotate: false
+  xy: 528, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+tpscroll
+  rotate: false
+  xy: 616, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+tranquil_boots
+  rotate: false
+  xy: 704, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+tranquil_boots_active
+  rotate: false
+  xy: 792, 256
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+ultimate_orb
+  rotate: false
+  xy: 616, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+ultimate_scepter
+  rotate: false
+  xy: 616, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+vanguard
+  rotate: false
+  xy: 704, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+veil_of_discord
+  rotate: false
+  xy: 792, 192
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+vitality_booster
+  rotate: false
+  xy: 704, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+void_stone
+  rotate: false
+  xy: 704, 0
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+wraith_band
+  rotate: false
+  xy: 792, 128
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+yasha
+  rotate: false
+  xy: 792, 64
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+shadow_amulet
+  rotate: false
+  xy: 792, 2
+  size: 86, 62
+  orig: 86, 62
+  offset: 0, 0
+  index: -1
